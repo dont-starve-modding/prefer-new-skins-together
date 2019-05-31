@@ -7,7 +7,7 @@ local function ClassHook(inst)
 
         oldrefresh(inst) -- call with inst here, to mimic "self" in inst.Refresh
 
-        local preferred = 2 -- the preferred skin to use (not 1, which is the default)
+        local preferred = 2 -- the preferred skin to use (not 1, which is the )
         if inst.skins_options ~= nil and #inst.skins_options > 1 then
 
             local i = 2 -- first option is always default
@@ -20,10 +20,8 @@ local function ClassHook(inst)
                 i = i + 1
             end
             
-            local skin_index = self.skins_spinner.spinner:GetSelectedIndex()
-            if skin_index == 1 then
-                skin_index = preferred
-                self.skins_spinner.spinner:SetSelectedIndex(skin_index)
+            if self.skins_spinner.spinner:GetSelectedIndex() == 1 then
+                self.skins_spinner.spinner:SetSelectedIndex(preferred)
             end
         end
     end
