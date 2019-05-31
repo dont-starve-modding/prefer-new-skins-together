@@ -4,10 +4,9 @@ version = "0.1.0"
 description = "Choose non-default and new skins automatically."
 
 description = "Version: " .. version .. "\n\n" ..
-[[Choose non-default and new skins automatically.
+[[Choose non-default and new skins automatically. (CLIENT MOD)
 
-If you want to build an item and want to use a new skin (Rucksack, for example) you will automatically choose
-a skin which is not the default. That always happens if there is one non-default skin, though!
+If you want to build an item and want to use a new skin (Rucksack, for example) you will automatically choose a skin which is not the default. That always happens if there is one non-default skin, though!
 
 v0.1.0
 - Initial release version
