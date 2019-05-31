@@ -8,6 +8,8 @@ description = "Version: " .. version .. "\n\n" ..
 
 If you want to build an item and want to use a new skin (Rucksack, for example) you will automatically choose a skin which is not the default. That always happens if there is one non-default skin, though!
 
+This basically saves you one click the first time you receive a new item skin. ;-)
+
 v0.1.0
 - Initial release version
 ]]
